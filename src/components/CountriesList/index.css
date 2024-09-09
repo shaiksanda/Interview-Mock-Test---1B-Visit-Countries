@@ -1,0 +1,14 @@
+.container {
+  background-color: #94a3b8;
+  border-radius: 8px;
+  padding: 8px;
+  overflow-x: auto;
+  height: 30vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px;
+    height: 50vh;
+  }
+}

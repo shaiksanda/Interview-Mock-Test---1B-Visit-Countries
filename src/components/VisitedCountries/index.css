@@ -1,0 +1,47 @@
+.visited-countries {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.image {
+  width: 290px;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+.name-heading {
+  font-size: 20px;
+  color: white;
+}
+
+.remove-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.remove-button {
+  background-color: orangered;
+  width: 80px;
+  height: 35px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 250px;
+    flex-grow: 1;
+  }
+}
